@@ -91,9 +91,7 @@ export function SignUp () {
                                 placeholder="Nome"
                                 onChangeText={onChange}
                                 value={value}
-                                errorMenssage={errors.name?.message}
-
-                                
+                                errorMenssage={errors.name?.message}                                
                             />  
                         )}                         
                     />
