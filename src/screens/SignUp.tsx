@@ -48,6 +48,7 @@ export function SignUp () {
         console.log(response.data);
        } catch (error) {
          const isAppError = error instanceof AppError;
+         
          const title = isAppError ? error.message : 'Não foi possível criar conta. Por favor, tente mais tarde.';
          toast.show({
             title, 
