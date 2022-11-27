@@ -1,3 +1,4 @@
-const USER_STORAGE = '@gymignite:user';
+const USER_STORAGE = '@gym:user';
+const AUTH_TOKEN_STORAGE = "gym:user"
 
-export { USER_STORAGE };
+export { USER_STORAGE, AUTH_TOKEN_STORAGE  };
